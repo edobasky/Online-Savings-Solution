@@ -2,19 +2,20 @@
   "customers": [
     {
       "firstName": "Ochuko",
-      "lastName": "Tega",
+      "lastName": "mark",
       "phoneNumber": "08034592745",
       "email": "zrtiu@gmail.com",
       "password": "0tch3456",
-      "accountBalance": "0",
+      "accountbalance": "5000",
       "id": 1
     },
     {
       "firstName": "Ben",
-      "lastName": "Domminique",
+      "lastName": "Dommini",
       "phoneNumber": "08034597599",
       "email": "bder@gmail.com",
       "password": "bdom3467",
+      "accountbalance": "3000",
       "id": 2
     },
     {
@@ -23,6 +24,7 @@
       "phoneNumber": "7859580690",
       "email": "rayburn47@yahoo.com",
       "password": "sahfbkbck0",
+      "accountbalance": "10000",
       "id": 3
     },
     {
@@ -31,7 +33,7 @@
       "phoneNumber": "846498059059",
       "email": "saintsrow47@yahoo.com",
       "password": "gdvfhbf7545",
-      "accountBalance": "20000",
+      "accountbalance": "20000",
       "id": 4
     }
   ]

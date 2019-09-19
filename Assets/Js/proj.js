@@ -53,8 +53,10 @@ $(document).ready(function (){
 })
 */
 
-// ACCOUNT EDIT
+// ACCOUNT EDIT / UPDATE ****************************************************************************
 
+
+// EDIT
 $(document).ready(function(){
     
    // var $firstname = $("#firstname")
@@ -78,6 +80,8 @@ $(document).ready(function(){
             $("#number").val(data.phoneNumber) ;
             $("#email").val( data.email);
             $("#password").val( data.password);
+            $("#acctbal").val(data.accountBalance)
+            
             },
             error: function(){
                 alert("error loading orders");
@@ -86,7 +90,9 @@ $(document).ready(function(){
     })
 })
 
+// $("#acctbal").hide();
 
+// UPDATE*****
 
 $(document).ready(function(){
     
@@ -95,6 +101,7 @@ $(document).ready(function(){
     var $number = $("#number")
     var $email = $("#email")
     var $password = $("#password")
+    var $accountbalance = $("#acctbal")
 
     $("#acc-update").on("click", function(){
         var id =$("#btn-edit").val()
@@ -104,7 +111,8 @@ $(document).ready(function(){
             lastName: $lastname.val(),
             phoneNumber: $number.val(),
             email: $email.val(),
-            password:$password.val()
+            password:$password.val(),
+            accountbalance:$accountbalance.val() 
         };
         $.ajax({
             type:"PUT",
@@ -118,10 +126,16 @@ $(document).ready(function(){
             }
         })
     })
+   // location.reload();
 })
 
 
-//ACCOUNT DEPOSIT
+
+//ACCOUNT EDIT AND UPDATE ENDS HERE***********************************************
+
+
+
+//ACCOUNT DEPOSIT ******************************************************************
 
 //first get balance
 
@@ -147,10 +161,27 @@ $(document).ready(function(){
              url: "http://localhost:3000/customers/"+id,
              success: function(data){
             // $("#firstname").val(data.firstName);
-            var newBalance = parseInt(data.accountBalance) + parseInt(depositAmt)    
+            var firstName = data.firstName;
+            var lastName = data.lastName;
+            var phoneNumber = data.phoneNumber;
+            var email = data.email;
+            var password = data.password;
+           
+
+            var newBalance = parseInt(data.accountBalance) + parseInt(depositAmt);    
             console.log(newBalance);
-            alert("success")
-             ;
+            var accountBalance = newBalance;
+         //   alert("success")
+            //     var data={
+            //         data.firstName = firstName,
+            //         data.lastName = lastName,
+            //         data.phoneNumber = phoneNumber,
+            //         data.email = email,
+            //         data.password = password,
+            //         data.accountBalance = newBalance  
+            //     }
+            //  ;
+             postBalance(firstName,lastName,phoneNumber,email,password,accountBalance,id);
              },
              error: function(){
                  alert("error loading orders");
@@ -158,6 +189,21 @@ $(document).ready(function(){
          })
      })
  })
+
+ function postBalance (firstName,lastName,phoneNumber,email,password,accountBalance,id) {
+    
+
+    $.ajax({
+        type:"PUT",
+        url: "http://localhost:3000/customers/"+id,
+        data:{firstName,lastName,phoneNumber,email,password,accountBalance,id} ,
+        success: function(){
+            alert("Deposit Successful")
+        },
+    })
+}
+
+// ACCOUNT DEPOSIT ENDS HERE*****************************
 
 
 
@@ -188,10 +234,22 @@ $(document).ready(function(){
              url: "http://localhost:3000/customers/"+id,
              success: function(data){
             // $("#firstname").val(data.firstName);
-            var newBalance = parseInt(data.accountBalance) + parseInt(withAmt)
+
+            var firstName = data.firstName;
+            var lastName = data.lastName;
+            var phoneNumber = data.phoneNumber;
+            var email = data.email;
+            var password = data.password;
+
+
+            var newBalance = parseInt(data.accountBalance) - parseInt(withAmt)
             console.log(newBalance);
+            var accountBalance = newBalance;
+
             alert("success")
              ;
+
+             postWithdrawBalance(firstName,lastName,phoneNumber,email,password,accountBalance,id);
              },
              error: function(){
                  alert("error loading orders");
@@ -199,6 +257,24 @@ $(document).ready(function(){
          })
      })
  })
+
+
+ 
+ function postWithdrawBalance (firstName,lastName,phoneNumber,email,password,accountBalance,id) {
+    
+
+    $.ajax({
+        type:"PUT",
+        url: "http://localhost:3000/customers/"+id,
+        data:{firstName,lastName,phoneNumber,email,password,accountBalance,id} ,
+        success: function(){
+            alert("successful")
+        },
+    })
+}
+
+
+// WITHDRAWAL ENDS HERE  ***********************************************************
  
 
 

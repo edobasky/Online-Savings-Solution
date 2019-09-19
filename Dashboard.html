@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="dashboard.css">
+</head>
+<body>
+    <div class="container">
+    <h2>Welcome </h2>
+    <p>Kindly carry out your preferred transaction!</p>
+    <hr>
+    <div class="row">
+            <div class="col-lg-4 col-sm-6 thumbnail">
+                <form>Account Deposit:<br>  
+
+                    <h5>Amount:</h5>
+                    <input type="number" id="id-dep" name="number" placeholder="id goes here"><br>
+                    <br><input type="number" id="amt" name="number" required><br>
+                    <button type="button" id="btn-deposit" required>Deposit</button><br><br>
+                    
+                </form>
+            </div>
+            <div class="col-lg-4 col-sm-6 thumbnail">
+                 <form>Account Withdrawal:<br>
+                    <h5>Amount</h5>
+             <input type="number" id="id-with" name="number" placeholder="id goes here"><br>   
+               <br> <input id="with-amt" type="number" name="number"><br>
+                <button type="button" id="btn-withdraw" required>Withdraw</button>
+           
+           
+            </form></div>
+            <div class="col-lg-4 col-sm-6 thumbnail"><strong></strong>
+                <h2>Account Update</h2>
+                <p>Kindly login with your Id before submitting!</p>
+                <hr>
+                <div class="edit"><input type="number" id="btn-edit">
+                    <button type="submit" id="editacc" >Enter User id</button></div>
+                <hr>
+                    <p>FirstName:<br>
+                        <input id="firstname" type="firstname" name="firstname" required>
+                    </p>
+                    <p>LastName:<br>
+                         <input id="lastname" type="lastname" name="lastname" required>
+                    </p>
+                     <p>email:<br>
+                          <input id="email" type="email" name="email" required>
+                     </p>
+                     <p>Number:<br>
+                            <input id="number" type="number" name="number" required>
+                     </p>
+                     <p>Password:<br>
+                             <input id="password" type="password" name="password" required>
+                     </p>
+
+                        <button type="submit" id="acc-update">Submit</button>
+
+            </div>
+    </div>
+    <hr>
+    <div><h3>View Transaction History</h3>
+        <ul id="custTranxct"></ul>
+        <button class="btn-thistory">submit</button>
+    </div>
+    </div>
+   
+    
+    
+   <script type="text/javascript" src="jquery-3.4.1.min.js"></script>          
+   <script type="text/javascript" src="bootstrap.min.js"></script>
+   <script type="text/javascript" src="assets/js/proj.js"></script>
+</body>
+</html>

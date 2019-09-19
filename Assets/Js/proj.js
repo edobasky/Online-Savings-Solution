@@ -11,6 +11,14 @@ $(document).ready(function(){
 
     $("#btn-signUp").on("click", function(e){
         e.preventDefault()
+        var name = $.trim( $('input#password').val() ); // get the value of the input field
+        if(name == "") {
+        $('#err-name').fadeIn('slow'); // show the error message
+        error = true; // change the error state to true
+}
+
+
+
         var customer = {
             firstName: $firstname.val(),
             lastName: $lastname.val(),
@@ -19,6 +27,7 @@ $(document).ready(function(){
             password:$password.val(),
             accountBalance: $balance.val()
         };
+        
 
         $.ajax({
             type:"POST",
@@ -26,6 +35,7 @@ $(document).ready(function(){
             data: customer,
             success: function(){
                 alert("successful")
+                window.location="Dashboard.html"
             },
             error: function(){
                 alert("error loading orders");

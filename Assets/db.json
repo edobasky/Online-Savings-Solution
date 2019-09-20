@@ -6,7 +6,7 @@
       "phoneNumber": "08034592745",
       "email": "zrtiu@gmail.com",
       "password": "0tch3456",
-      "accountBalance": "0",
+      "accountBalance": "9000",
       "id": 1
     },
     {
@@ -15,7 +15,7 @@
       "phoneNumber": "08034597599",
       "email": "bder@gmail.com",
       "password": "bdom3467",
-      "accountbalance": "400",
+      "accountbalance": "1100",
       "id": 2
     },
     {
@@ -33,7 +33,7 @@
       "phoneNumber": "08168419911",
       "email": "edore7@gmail.com",
       "password": "gjhjy35",
-      "accountbalance": "NaN",
+      "accountBalance": "200",
       "id": 4
     },
     {
@@ -65,12 +65,39 @@
     },
     {
       "firstName": "UVIEGHARA ",
-      "lastName": "EDOREdgugf",
-      "phoneNumber": "8878675",
-      "email": "tnnn@gmail.com",
-      "password": "jbhjbj78787",
-      "accountbalance": "30",
+      "lastName": "EDORE",
+      "phoneNumber": "0907684635",
+      "email": "edore8@gmail.com",
+      "password": "marko9",
+      "accountbalance": "0",
       "id": 8
+    },
+    {
+      "firstName": "UVIEGHARA ",
+      "lastName": "EDORE",
+      "phoneNumber": "45787",
+      "email": "edore7@gmail.com",
+      "password": "koilkio7",
+      "accountbalance": "0",
+      "id": 9
+    },
+    {
+      "firstName": "UVIEGHARA ",
+      "lastName": "EDORE",
+      "phoneNumber": "090357629",
+      "email": "edore7@gmail.com",
+      "password": "hcgkvnls009",
+      "accountbalance": "0",
+      "id": 10
+    },
+    {
+      "firstName": "UVIEGHARA ",
+      "lastName": "EDORE",
+      "phoneNumber": "08168419911",
+      "email": "edore7@gmail.com",
+      "password": "barons47",
+      "accountbalance": "0",
+      "id": 11
     }
   ]
 }

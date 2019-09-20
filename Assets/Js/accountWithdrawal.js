@@ -34,7 +34,7 @@ $(document).ready(function(){
 
 
             var newBalance = parseInt(data.accountbalance) - parseInt(withAmt);
-            $("#custTranxct").append("<li>Credit Alert of N" + parseInt(withAmt)+" .Your current Balance is N" + newBalance + "</li>");
+            $("#custTranxct").append("<li>Debit Alert of N" + parseInt(withAmt)+" .Your current Balance is N" + newBalance + "</li>").css("color", "white");
             console.log(newBalance);
             var accountbalance = newBalance;
 

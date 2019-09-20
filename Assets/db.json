@@ -6,7 +6,7 @@
       "phoneNumber": "08034592745",
       "email": "zrtiu@gmail.com",
       "password": "0tch3456",
-      "accountbalance": "5000",
+      "accountBalance": "3500",
       "id": 1
     },
     {
@@ -15,7 +15,7 @@
       "phoneNumber": "08034597599",
       "email": "bder@gmail.com",
       "password": "bdom3467",
-      "accountbalance": "3000",
+      "accountbalance": 3000,
       "id": 2
     },
     {
@@ -24,80 +24,8 @@
       "phoneNumber": "7859580690",
       "email": "rayburn47@yahoo.com",
       "password": "sahfbkbck0",
-      "accountbalance": "10000",
+      "accountbalance": 10000,
       "id": 3
-    },
-    {
-      "firstName": "mark ",
-      "lastName": "payne",
-      "phoneNumber": "846498059059",
-      "email": "saintsrow47@yahoo.com",
-      "password": "gdvfhbf7545",
-      "accountbalance": "20000",
-      "id": 4
-    },
-    {
-      "firstName": "mike",
-      "lastName": "augutus",
-      "phoneNumber": "989767436589",
-      "email": "ttt@gmail.com",
-      "password": "ghh7575489",
-      "accountBalance": "7868789",
-      "id": 5
-    },
-    {
-      "firstName": "`1",
-      "lastName": "augutus",
-      "phoneNumber": "989767436589",
-      "email": "ttt@gmail.com",
-      "password": "ghh7575489",
-      "accountBalance": "7868789",
-      "id": 6
-    },
-    {
-      "firstName": "`1",
-      "lastName": "augutus",
-      "phoneNumber": "989767436589",
-      "email": "ttt@gmail.com",
-      "password": "ghh7575489",
-      "accountBalance": "7868789",
-      "id": 7
-    },
-    {
-      "firstName": "bdfjdsk",
-      "lastName": "kjdbhfkjds",
-      "phoneNumber": "8545",
-      "email": "edore7@gmail.com",
-      "password": "dsjbfjefknsd3uy58u9",
-      "accountBalance": "586677",
-      "id": 8
-    },
-    {
-      "firstName": "",
-      "lastName": "",
-      "phoneNumber": "",
-      "email": "",
-      "password": "",
-      "accountBalance": "",
-      "id": 9
-    },
-    {
-      "firstName": "",
-      "lastName": "",
-      "phoneNumber": "",
-      "email": "",
-      "password": "",
-      "accountBalance": "",
-      "id": 10
-    },
-    {
-      "firstName": "",
-      "lastName": "",
-      "phoneNumber": "",
-      "email": "",
-      "password": "",
-      "accountBalance": "",
-      "id": 11
     }
   ]
 }

@@ -11,15 +11,6 @@ $(document).ready(function(){
          var id =$("#id-dep").val();
          var depositAmt=$("#amt").val();
          
-/*
-         e.preventDefault()
-         var customer = {
-             firstName: $firstname.val(),
-             lastName: $lastname.val(),
-             phoneNumber: $number.val(),
-             email: $email.val(),
-             password:$password.val()
-         }; */
          $.ajax({
              type:"GET",
              url: "http://localhost:3000/customers/"+id,

@@ -1,6 +1,7 @@
  
 //ACCOUNT WITHDRAWAL
 
+
 //first get balance
 
 $(document).ready(function(){

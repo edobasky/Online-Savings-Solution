@@ -1,5 +1,6 @@
 //CREATING A NEW ACCOUNT
 
+
 $(document).ready(function(){
     
     var $firstname = $("#firstname")

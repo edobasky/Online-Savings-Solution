@@ -4,6 +4,7 @@ $(document).ready(function(){
         let $mail = $("#email").val();
 
 
+        
         $.ajax({
             type: "GET",
             url:"http://localhost:3000/customers/",

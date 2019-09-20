@@ -2,11 +2,11 @@
   "customers": [
     {
       "firstName": "Ochuko",
-      "lastName": "mark",
+      "lastName": "john",
       "phoneNumber": "08034592745",
       "email": "zrtiu@gmail.com",
       "password": "0tch3456",
-      "accountBalance": "3500",
+      "accountBalance": "NaN",
       "id": 1
     },
     {
@@ -15,7 +15,7 @@
       "phoneNumber": "08034597599",
       "email": "bder@gmail.com",
       "password": "bdom3467",
-      "accountbalance": 3000,
+      "accountbalance": "4300",
       "id": 2
     },
     {
@@ -24,8 +24,26 @@
       "phoneNumber": "7859580690",
       "email": "rayburn47@yahoo.com",
       "password": "sahfbkbck0",
-      "accountbalance": 10000,
+      "accountBalance": "NaN",
       "id": 3
+    },
+    {
+      "firstName": "UVIEGHARA ",
+      "lastName": "EDORE",
+      "phoneNumber": "08168419911",
+      "email": "edore7@gmail.com",
+      "password": "gjhjy35",
+      "accountBalance": "4000",
+      "id": 4
+    },
+    {
+      "firstName": "UVIEGHARA ",
+      "lastName": "EDORE",
+      "phoneNumber": "08168419911",
+      "email": "edore7@gmail.com",
+      "password": "hvhfbdh890",
+      "accountBalance": "7600",
+      "id": 5
     }
   ]
 }

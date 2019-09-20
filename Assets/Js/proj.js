@@ -10,8 +10,9 @@ $(document).ready(function(){
     var $balance = $("#bal")
 
     $("#btn-signUp").on("click", function(e){
+        $balance.val(0);
         e.preventDefault()
-        
+
         var customer = {
             firstName: $firstname.val(),
             lastName: $lastname.val(),
@@ -83,7 +84,8 @@ $(document).ready(function(){
             $("#number").val(data.phoneNumber) ;
             $("#email").val( data.email);
             $("#password").val( data.password);
-            $("#acctbal").val(data.accountBalance)
+            $("#acctbal").val(data.accountbalance)
+            console.log(data)
             
             },
             error: function(){
@@ -93,7 +95,6 @@ $(document).ready(function(){
     })
 })
 
-// $("#acctbal").hide();
 
 // UPDATE*****
 
@@ -122,7 +123,9 @@ $(document).ready(function(){
             url: "http://localhost:3000/customers/"+id,
             data: customer,
             success: function(){
-                alert("successful")
+                alert("Account Update Successful")
+                console.log(customer)
+                window.location="Dashboard.html"
             },
             error: function(){
                 alert("error loading orders");
@@ -185,6 +188,7 @@ $(document).ready(function(){
             //     }
             //  ;
              postBalance(firstName,lastName,phoneNumber,email,password,accountBalance,id);
+             
              },
              error: function(){
                  alert("error loading orders");
@@ -201,7 +205,8 @@ $(document).ready(function(){
         url: "http://localhost:3000/customers/"+id,
         data:{firstName,lastName,phoneNumber,email,password,accountBalance,id} ,
         success: function(){
-            alert("Deposit Successful")
+            alert("Deposit Successful");
+            window.location="Dashboard.html"
         },
     })
 }
@@ -248,11 +253,10 @@ $(document).ready(function(){
             var newBalance = parseInt(data.accountBalance) - parseInt(withAmt)
             console.log(newBalance);
             var accountBalance = newBalance;
-
-            alert("success")
+           // alert("Successful Withdrawal")
              ;
-
              postWithdrawBalance(firstName,lastName,phoneNumber,email,password,accountBalance,id);
+             window.location="Dashboard.html"
              },
              error: function(){
                  alert("error loading orders");
@@ -271,7 +275,7 @@ $(document).ready(function(){
         url: "http://localhost:3000/customers/"+id,
         data:{firstName,lastName,phoneNumber,email,password,accountBalance,id} ,
         success: function(){
-            alert("successful")
+            alert("Successful Withdrawal")
         },
     })
 }

@@ -33,7 +33,8 @@ $(document).ready(function(){
             var password = data.password;
 
 
-            var newBalance = parseInt(data.accountbalance) - parseInt(withAmt)
+            var newBalance = parseInt(data.accountbalance) - parseInt(withAmt);
+            $("#custTranxct").append("<li>Credit Alert of N" + parseInt(withAmt)+" .Your current Balance is N" + newBalance + "</li>");
             console.log(newBalance);
             var accountbalance = newBalance;
 
@@ -60,7 +61,6 @@ $(document).ready(function(){
         data:{firstName,lastName,phoneNumber,email,password,accountBalance,id} ,
         success: function(){
             alert("successful")
-            window.location="Dashboard.html"
         },
     })
 }

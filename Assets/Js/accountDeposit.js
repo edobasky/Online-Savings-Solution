@@ -31,8 +31,9 @@ $(document).ready(function(){
             var email = data.email;
             var password = data.password;
            
-
-            var newBalance = parseInt(data.accountbalance) + parseInt(depositAmt);    
+            var newBalance = parseInt(data.accountbalance) + parseInt(depositAmt);
+            $("#custTranxct").append("<li>Credit Alert of N" + parseInt(depositAmt)+" .Your current Balance is N" + newBalance + "</li>");
+            
             console.log(newBalance);
             var accountbalance = newBalance;
          //   alert("success")
@@ -61,9 +62,11 @@ $(document).ready(function(){
         type:"PUT",
         url: "http://localhost:3000/customers/"+id,
         data:{firstName,lastName,phoneNumber,email,password,accountbalance,id} ,
-        success: function(){
+        success: function(details){
             alert("Deposit Successful")
-            window.location="Dashboard.html"
+          //  $("#custTranxct").append("<li>Credit Alert of N" + newBalance+" Your current Balance is N" + details.accountbalance + "</li>");
+
+            // window.location="Dashboard.html"
         },
     })
 }

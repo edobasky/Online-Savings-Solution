@@ -6,7 +6,7 @@
       "phoneNumber": "08034592745",
       "email": "zrtiu@gmail.com",
       "password": "0tch3456",
-      "accountBalance": "1200",
+      "accountBalance": "0",
       "id": 1
     },
     {
@@ -33,7 +33,7 @@
       "phoneNumber": "08168419911",
       "email": "edore7@gmail.com",
       "password": "gjhjy35",
-      "accountBalance": "79400",
+      "accountbalance": "NaN",
       "id": 4
     },
     {

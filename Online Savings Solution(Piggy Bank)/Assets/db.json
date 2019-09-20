@@ -1,0 +1,76 @@
+{
+  "customers": [
+    {
+      "firstName": "Ochuko",
+      "lastName": "john",
+      "phoneNumber": "08034592745",
+      "email": "zrtiu@gmail.com",
+      "password": "0tch3456",
+      "accountBalance": "380",
+      "id": 1
+    },
+    {
+      "firstName": "Ben",
+      "lastName": "Dommini",
+      "phoneNumber": "08034597599",
+      "email": "bder@gmail.com",
+      "password": "bdom3467",
+      "accountbalance": "1100",
+      "id": 2
+    },
+    {
+      "firstName": "UVMANUEL",
+      "lastName": "mike",
+      "phoneNumber": "7859580690",
+      "email": "rayburn47@yahoo.com",
+      "password": "sahfbkbck0",
+      "accountbalance": "600",
+      "id": 3
+    },
+    {
+      "firstName": "UVIEGHARA ",
+      "lastName": "EDORE",
+      "phoneNumber": "08168419911",
+      "email": "edore7@gmail.com",
+      "password": "gjhjy35",
+      "accountBalance": "200",
+      "id": 4
+    },
+    {
+      "firstName": "UVIEGHARA ",
+      "lastName": "EDORE",
+      "phoneNumber": "08168419911",
+      "email": "edore7@gmail.com",
+      "password": "hvhfbdh890",
+      "accountbalance": "4500",
+      "id": 5
+    },
+    {
+      "firstName": "Mattew",
+      "lastName": "john",
+      "phoneNumber": "0905847338",
+      "email": "matjohn",
+      "password": "hjhgfygyu7",
+      "accountbalance": "0",
+      "id": 6
+    },
+    {
+      "firstName": "UVIEGHARA ",
+      "lastName": "gfihjgt",
+      "phoneNumber": "675544",
+      "email": "ew@gmail.com",
+      "password": "ugkb90090",
+      "accountbalance": "0",
+      "id": 7
+    },
+    {
+      "firstName": "UVIEGHARA ",
+      "lastName": "EDORE",
+      "phoneNumber": "0907684635",
+      "email": "edore8@gmail.com",
+      "password": "marko9",
+      "accountbalance": "0",
+      "id": 8
+    }
+  ]
+}

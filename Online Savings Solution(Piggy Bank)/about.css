@@ -1,0 +1,13 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: url(jjbbh.jpg) no-repeat;
+	background-size: cover;
+}
+
+p{
+    text-align : center;
+	margin : 100px auto;
+	color: blue
+}

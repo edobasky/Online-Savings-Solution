@@ -6,7 +6,7 @@
       "phoneNumber": "08034592745",
       "email": "zrtiu@gmail.com",
       "password": "0tch3456",
-      "accountBalance": "NaN",
+      "accountBalance": "1200",
       "id": 1
     },
     {
@@ -15,7 +15,7 @@
       "phoneNumber": "08034597599",
       "email": "bder@gmail.com",
       "password": "bdom3467",
-      "accountbalance": "4300",
+      "accountbalance": "400",
       "id": 2
     },
     {
@@ -24,7 +24,7 @@
       "phoneNumber": "7859580690",
       "email": "rayburn47@yahoo.com",
       "password": "sahfbkbck0",
-      "accountBalance": "NaN",
+      "accountbalance": "600",
       "id": 3
     },
     {
@@ -33,7 +33,7 @@
       "phoneNumber": "08168419911",
       "email": "edore7@gmail.com",
       "password": "gjhjy35",
-      "accountBalance": "4000",
+      "accountBalance": "79400",
       "id": 4
     },
     {
@@ -42,8 +42,35 @@
       "phoneNumber": "08168419911",
       "email": "edore7@gmail.com",
       "password": "hvhfbdh890",
-      "accountBalance": "7600",
+      "accountbalance": "4500",
       "id": 5
+    },
+    {
+      "firstName": "Mattew",
+      "lastName": "john",
+      "phoneNumber": "0905847338",
+      "email": "matjohn",
+      "password": "hjhgfygyu7",
+      "accountbalance": "0",
+      "id": 6
+    },
+    {
+      "firstName": "UVIEGHARA ",
+      "lastName": "gfihjgt",
+      "phoneNumber": "675544",
+      "email": "ew@gmail.com",
+      "password": "ugkb90090",
+      "accountbalance": "0",
+      "id": 7
+    },
+    {
+      "firstName": "UVIEGHARA ",
+      "lastName": "EDOREdgugf",
+      "phoneNumber": "8878675",
+      "email": "tnnn@gmail.com",
+      "password": "jbhjbj78787",
+      "accountbalance": "30",
+      "id": 8
     }
   ]
 }
